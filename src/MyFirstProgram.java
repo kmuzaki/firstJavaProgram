@@ -40,10 +40,10 @@ public class MyFirstProgram {
         username = scanner.next();
 
         // Prints the message
-        if (username == "Gordon") {
+        if (username.equals("Gordon")) {
             System.out.println("Oh? Well that makes it easier for me to remember, actually. Since one of my colleagues is also named Gordon.");
             System.out.println("Hahah. What a matter of coincidence!");
-        } else if (username == "Freeman") {
+        } else if (username.equals("Freeman")) {
             System.out.println("Freeman!? What are the odds that you have the exact same name as my friend's last name?");
         } else {
             System.out.println("Ah I see! Well, it's nice to meet you, " + username + "!");
