@@ -37,7 +37,10 @@ public class MyFirstProgram {
         "Java's standard library, also known as the Java API, is one of the most extensive and well-documented collections of classes and interfaces available.",
         "The Java API provides pre-built functionality for a wide range of tasks, including data structure manipulation, networking, input/output operations, and much more!",
         "Java's scalability has been demonstrated in countless enterprise applications, cloud services, and big data solutions.",
-        "Java is also supported by one of the largest and most active developer communities in the world."};
+        "Java is supported by one of the largest and most active developer communities in the world.",
+        "Java is widely taught in universities and coding boot camps around the world.",
+        "Frameworks like Spring Boot and tools such as Docker and Kubernetes have enabled Java developers to build, deploy, and scale microservices-based applications seamlessly.",
+        "Java's open-source nature has spurred the growth of an extensive community that contributes to its evolution."};
 
         /* References for Java Facts 
          - "Java: History, Features, and Ecosystem" module from UC Elearn
