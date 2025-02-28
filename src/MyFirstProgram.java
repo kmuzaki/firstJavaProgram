@@ -12,7 +12,6 @@ public class MyFirstProgram {
     static String White = "\u001b[37m";
     static String Reset = "\u001b[0m";
     static String BrightYellow = "\u001b[33;1m";
-
     public static void main(String[] args){
         // Initialise necessary variables for the program
         String username;
@@ -20,7 +19,7 @@ public class MyFirstProgram {
         
         // Storing multiple facts about Java within an array
         String[] javaFacts = {"Java in a nutshell was created by a group of people who despise the C programming language.", 
-        "Java was initially named 'Oak' , however it was later renamed Java due to trademark issues. Which coincidentally",
+        "Java was initially named 'Oak', however it was later renamed to 'Java' due to trademark issues.",
         "Java was built with the 'Write Once, Run Anywhere' (WORA) Ideology, meaning that a compiled Java code could run on any device with Java Virtual Machine (JVM) installed. Even modern cars could run Java! Incredible, don't you think?",
         "Java was created by James Gosling, Mike Sheridan, Patrick Naughton, and others at Sun Microsystems in 1995.",
         "The name Java was inspired by the developers' love for Java Coffee. Hence the popular coffee cup logo associated with Java you see today.",
@@ -32,7 +31,13 @@ public class MyFirstProgram {
         "Java has an automatic memory management feature called 'Garbage Collection'. It runs Java programs more efficiently by removing unused objects and freeing up memory in the process.",
         "One of Java's most celebrated features is its platform independence. Fascinating, don't you think?",
         "Java was designed with a strong emphasis on reliability and security because of its clean and strongly typed syntaxes.",
-        "Minecraft was built on Java. Though Mojang to this day hasn't rewrite the game's code to take full advantage of current PC hardware. What a bummer."};
+        "Minecraft was built on Java. Though Mojang to this day hasn't rewrite the game's code to take full advantage of current PC hardware. What a bummer.",
+        "Java's built-in support for multithreading is a significant advantage by providing a rich set of APIs for creating and managing multiple threads.",
+        "Java's multithreading capability is particularly useful in modern applications that require high levels of interactivity and responsiveness, such as gaming, real-time data processing, and large-scale web applications.",
+        "Java's standard library, also known as the Java API, is one of the most extensive and well-documented collections of classes and interfaces available.",
+        "The Java API provides pre-built functionality for a wide range of tasks, including data structure manipulation, networking, input/output operations, and much more!",
+        "Java's scalability has been demonstrated in countless enterprise applications, cloud services, and big data solutions.",
+        "Java is also supported by one of the largest and most active developer communities in the world."};
 
         /* References for Java Facts 
          - "Java: History, Features, and Ecosystem" module from UC Elearn
@@ -62,16 +67,17 @@ public class MyFirstProgram {
             System.out.println(Yellow + "Oh? Well that makes it easier for me to remember, actually. Since one of my colleagues is also named Gordon.");
             System.out.println("Hahah. What a matter of coincidence!");
             System.out.println("");
+
         } else if (username.equals("Freeman")) {
             System.out.println(Yellow + "Freeman!? What are the odds that you have the exact same name as my friend's last name?");
             System.out.println("");
             System.out.print("Oh well then. ");
+
         } else {
             System.out.println(Yellow + "Ah I see! Well, it's nice to meet you, " + Cyan + username + Yellow + "!");
             System.out.println("");
         }
         
-
         // Print a Java fact
         arrayCursor = (int) (Math.random() * arraySize);
         System.out.println("Did you know? " + Green + javaFacts[arrayCursor]);
